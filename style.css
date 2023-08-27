@@ -15,3 +15,27 @@ input:focus {
 a:focus {
   background: Orange;
 }
+div {
+  position: absolute;
+  top: 300px;
+  width: 150px;
+  height: 50px;
+}
+div#active {
+  left: 10px;
+}
+div#prints {
+  left: 170px;
+}
+div#active {
+  background: Bisque;
+}
+div#prints {
+  background: url(images/kindpng_421839\(1\).png) 0 0 Bisque;
+}
+div#active:hover {
+  background-color: DarkOrange;
+}
+div#prints:hover {
+  background: url(images/kindpng_421839\(1\).png) 0 -50px DarkOrange;
+}
