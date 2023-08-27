@@ -87,3 +87,29 @@ span.label {
   background: DarkOrange;
   color: White;
 }
+div.outer,
+div.inner {
+  width: 120px;
+  height: 120px;
+}
+div.outer {
+  display: inline-block;
+  margin: 10px;
+  border: 5px solid DarkOrange;
+  background: Bisque;
+}
+div.inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px dashed Orange;
+}
+div.all {
+  border-radius: 40px;
+}
+div.ind {
+  border-radius: 50px 0 50px 0;
+}
+div.cir {
+  border-radius: 65px;
+}
