@@ -15,7 +15,7 @@ input:focus {
 a:focus {
   background: Orange;
 }
-div {
+/* div {
   position: absolute;
   top: 300px;
   width: 150px;
@@ -38,4 +38,30 @@ div#active:hover {
 }
 div#prints:hover {
   background: url(images/kindpng_421839\(1\).png) 0 -50px DarkOrange;
+} */
+.button {
+  display: inline-block;
+  font: 16px sans-serif;
+  background: Orange;
+  color: White;
+  border: none;
+  padding: 16px 32px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:link,
+.button:visited {
+  color: White;
+}
+.button:hover {
+  background: Coral;
+}
+.button:active {
+  background: OrangeRed;
+}
+form {
+  display: inline-block;
 }
