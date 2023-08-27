@@ -113,3 +113,23 @@ div.ind {
 div.cir {
   border-radius: 65px;
 }
+div.drop {
+  box-shadow: 10px 10px 10px DarkOrange;
+}
+div.drop > div.inner {
+  text-shadow: 2px 2px DarkOrange;
+}
+div.glow {
+  box-shadow: 0 0 10px 10px DarkOrange;
+}
+div.glow > div.inner {
+  color: White;
+  text-shadow: 2px 2px 4px Black;
+}
+div.inset {
+  box-shadow: 10px 10px 30px DarkOrange inset;
+}
+div.inset > div.inner {
+  color: Bisque;
+  text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;
+}
