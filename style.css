@@ -65,3 +65,25 @@ div#prints:hover {
 form {
   display: inline-block;
 }
+div.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+div.dropdown {
+  position: absolute;
+  padding: 2px;
+  border: 2px dashed DarkOrange;
+  background: turquoise;
+  z-index: 1;
+  display: none;
+}
+div.thumbnail:hover div.dropdown {
+  display: block;
+}
+span.label {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  background: DarkOrange;
+  color: White;
+}
