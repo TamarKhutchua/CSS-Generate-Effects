@@ -9,3 +9,9 @@ p.help-cursor {
 p.target-cursor {
   cursor: url(images/move.png), default;
 }
+input:focus {
+  background: DarkOrange;
+}
+a:focus {
+  background: Orange;
+}
