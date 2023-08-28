@@ -34,3 +34,34 @@ div.expand:hover {
   width: 350px;
   height: 100px;
 }
+div.ball {
+  position: absolute;
+  top: 10px;
+  width: 120px;
+  height: 120px;
+  color: White;
+  font: 1.5em sans-serif;
+  background: Orange;
+  border-radius: 50%;
+}
+div.label {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+@keyframes bounce {
+  from {
+    top: 10px;
+  }
+  50% {
+    top: 40px;
+  }
+  to {
+    top: 100px;
+  }
+}
+div.ball {
+  animation: bounce 2s linear infinite alternate;
+}
