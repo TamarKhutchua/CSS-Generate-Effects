@@ -15,3 +15,22 @@ div.scale:hover {
 div.skew:hover {
   transform: skew(15deg, 15deg);
 }
+div.expand {
+  margin: 50px;
+  padding: 15px;
+  color: White;
+  font: 1.5em sans-serif;
+  background: Orange;
+  width: 100px;
+  height: 30px;
+}
+div.expand {
+  transition: background 5s linear 0.5s, width 5s ease-out 0.5s,
+    height 5s steps(5) 0.5s;
+}
+
+div.expand:hover {
+  background: OrangeRed;
+  width: 350px;
+  height: 100px;
+}
