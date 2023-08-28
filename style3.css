@@ -65,3 +65,30 @@ div.label {
 div.ball {
   animation: bounce 2s linear infinite alternate;
 }
+img {
+  display: inline-block;
+  border: 2px solid DarkOrange;
+  margin: 5px;
+  width: 150px;
+}
+img.short {
+  height: 80px;
+}
+img.tall {
+  height: 200px;
+}
+img.scale-down {
+  object-fit: scale-down;
+}
+img.none {
+  object-fit: none;
+}
+img.fill {
+  object-fit: fill;
+}
+img.contain {
+  object-fit: contain;
+}
+img.cover {
+  object-fit: cover;
+}
